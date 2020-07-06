@@ -1,0 +1,168 @@
+/* import fonts from google fonts */
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=Gugi&family=Lato&family=Roboto&family=Sofia&display=swap');
+
+
+:root{
+	--light-gray:#2b3032a1;
+	--primary-color:#000000;
+	--border:#2b303218;
+	--text-color:#ff686b;
+	--text-color2:#8ddd67;
+	--grey:#838383;
+	--roboto:"Roboto",sans-serif;
+	--gugi:"Gugi",cursive;
+	--sofia:"Sofia"cursive;
+
+}
+
+.primary-color{
+	color:var(--primary-color);
+}
+
+.bg-primary-color{
+	background-color:var(--primary-color)!important;
+}
+
+.text-color{
+	color:var(--text-color);
+}
+
+.text-color3{
+	color:var(--grey);
+}
+.responsive {
+	width: 100%;
+	height: auto;
+	padding: 0cm;
+  }
+
+.nop{
+	padding: 0cm;
+	background-color:var(--primary-color)
+
+}
+
+.np{
+	padding: 0px;
+	top: 60px;
+}
+.top-center {
+  position: absolute;
+  top: 32px;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.container {
+	position: relative;
+	text-align: center;
+	color: white;
+	width: 110%;
+	padding: 0cm;
+  }
+
+.font-size{
+	font-size: .5in;
+}  
+
+.text-color2{
+	color:var(--text-color2);
+}
+
+.font-roboto{
+    font-family:var(--roboto);
+}
+.font-gugi{
+    font-family:var(--gugi);
+}
+
+.lightblue{
+    color: lightblue;
+}
+
+/* header */
+
+header{
+	background-color:var(--primary-color);
+}
+
+.button {
+	position: absolute;
+	top: 600px;
+	right: 20;
+  }
+  
+  .button1 {background-color: #4CAF50;
+	position: absolute;
+
+} /* Green */
+header .site-title{
+	font-family:var(--gugi);
+	color:var(--text-color2);
+}
+
+.buttons-li {
+	list-style: none;
+	text-align: center;
+	background-color: #000000;
+	margin-right: 30px;
+	width: 150px;
+	line-height: 60px;
+  }
+
+
+.header-links a{
+    font-size: 0.9em;
+    text-decoration: none;
+	color: white;
+	padding: 10px;
+}
+
+.secl
+.content{
+	color:var(--text-color2);
+}
+
+
+
+ul {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	overflow: hidden;
+	background-color: #333;
+	position: -webkit-sticky; /* Safari */
+	position: sticky;
+	top: 0;
+  }
+  
+  li {
+	float: left;
+  }
+  
+  li a {
+	display: block;
+	color: white;
+	text-align: center;
+	padding: 14px 16px;
+	text-decoration: none;
+  }
+  
+  li a:hover {
+	background-color: #111;
+	color:Var(--text-color2);
+	text-decoration: none;
+  }
+  
+  .active {
+	background-color: #4CAF50;
+  }
+  </style>
+  </head>
+  <body>
+  
+  <div class="header">
+	<h2>Scroll Down</h2>
+	<p>Scroll down to see the sticky effect.</p>
+  </div>
+
+
